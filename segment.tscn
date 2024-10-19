@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxmvklselc3rw"]
+
+[ext_resource type="Script" path="res://Segment.gd" id="1_5so8n"]
+
+[node name="Segment" type="Polygon2D"]
+polygon = PackedVector2Array(0, 0, 16, 0, 16, 16, 0, 16)
+script = ExtResource("1_5so8n")
